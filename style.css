@@ -3,7 +3,7 @@
 }
 #container{
     width: 1030px;
-    height: 1100px;
+    height: 1300px;
     margin:20px auto;
     border: 2px solid black;
 }
@@ -36,4 +36,30 @@ h4{
 }
 .boolean{
     color: rgb(48, 193, 250);
+}
+.paragraph  {
+    font-weight: bold;
+}
+         /* TABLE */
+table, th, td{
+    /* border-collapse: collapse; */
+}
+.table{
+    width: 100%;
+    text-align: left;
+}
+.tr{
+    height: 60px;
+    background-color: rgb(128, 219, 255);
+    font-weight: bold;
+}
+.color_tr{
+    background-color: rgb(14, 148, 189);
+    color: white;
+}
+.td_width{
+    width: 50%;
+}
+.tr_white{
+    font-weight: bold;
 }
