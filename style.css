@@ -71,7 +71,6 @@ footer{
 }
 .monitor{
     background-image: url('img/monitor.jpg');
-    background-size: contain;
     width: 310px;
     height: 210px;
     text-align: center;
