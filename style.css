@@ -4,3 +4,15 @@
     margin:20px auto;
     border: 2px solid black;
 }
+
+            /* HEADER-CONTENT */
+header{
+    border-bottom: 1px solid black;
+    background-image: url('img/pattern.png');
+    background-color: rgb(68, 142, 211);
+    background-attachment: fixed;
+}
+#img_logo{
+    width: 200px;
+    padding: 50px 20px 10px 20px;
+}
