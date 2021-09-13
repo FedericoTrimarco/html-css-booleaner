@@ -1,11 +1,15 @@
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+body{
+    background-color: black;
+}
 #container{
     width: 1030px;
-    height: 1300px;
     margin:20px auto;
     border: 2px solid black;
+    font-weight: bold;
+    background-color: white;
 }
 
             /* HEADER-CONTENT */
@@ -37,12 +41,13 @@ h4{
 .boolean{
     color: rgb(48, 193, 250);
 }
-.paragraph  {
-    font-weight: bold;
+
+.underline{
+    background-color: rgb(240, 240, 118);
 }
          /* TABLE */
 table, th, td{
-    /* border-collapse: collapse; */
+    border-collapse: collapse;
 }
 .table{
     width: 100%;
@@ -51,7 +56,6 @@ table, th, td{
 .tr{
     height: 60px;
     background-color: rgb(128, 219, 255);
-    font-weight: bold;
 }
 .color_tr{
     background-color: rgb(14, 148, 189);
@@ -60,6 +64,24 @@ table, th, td{
 .td_width{
     width: 50%;
 }
-.tr_white{
-    font-weight: bold;
+     /* FOOTER */
+footer{
+    padding-left: 10px;
+    color: gray;
+}
+.monitor{
+    background-image: url('img/monitor.jpg');
+    background-size: contain;
+    width: 310px;
+    height: 210px;
+    text-align: center;
+    color: white;
+}
+.graph{
+    background-image: url('img/graph.jpg');
+    width: 310px;
+    height: 210px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
 }
